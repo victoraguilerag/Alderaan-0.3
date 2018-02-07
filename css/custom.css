@@ -1,6 +1,7 @@
 .row-alderaan {
 	display: flex;
 	flex-flow: row wrap;
+	width: 100vw;
 }
 .portfolio-item {
 	margin: 0 !important;
