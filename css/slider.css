@@ -1,6 +1,6 @@
 @keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
+0% { left: 0vw; }
+20% { left: 0vw; }
 25% { left: -100vw; }
 45% { left: -100vw; }
 50% { left: -200vw; }
@@ -12,15 +12,13 @@
 
 body { margin: 0; } 
 div#slider { overflow: hidden; }
-div#slider figure .portafolio-item { width: 20%; float: left; }
+div#slider figure .row-alderaan { width: 20%; float: left; }
 div#slider figure { 
   position: relative;
-  width: 500%;
+  width: 500vw;
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite;
-  display: flex;
-  flex-flow: row wrap;
+  animation: 10s slidy infinite;
 }
